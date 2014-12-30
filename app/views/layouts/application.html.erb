@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <%= stylesheet_link_tag    "application" %>
+    <%= javascript_include_tag "application" 'data-turbolinks-track' => true %>
+    <%= csrf_meta_tags %>
+  </head>
+
+  <body>
+  <header class="navbar navbar-fixed-top navbar-inverse">
+    <div class="navbar-inner">
+      <div class="container">
+        <nav>
+          <p class="navbar-text pull-right">
+            <td><% if user_signed_in? %>
+                Logged in as <strong><%= current_user.email %></strong>.
+                <%= link_to current_user.firstname, twilio_otp_c_path %> |
+                <%= link_to "Logout", destroy_user_session_path, method: :delete  %>
+              <% else %>
+                <%= link_to "Sign up", new_user_registration_path  %> |
+                <%= link_to "Login", new_user_session_path %>
+            </td>
+            <% end %>
+           </p>
+         </nav>
+      </div>
+    </div>
+  </header>
+  <br><br><br>
+  <div id="content">
+    <%= yield %>
+  </div>
+  </body>
+</html>
+
+

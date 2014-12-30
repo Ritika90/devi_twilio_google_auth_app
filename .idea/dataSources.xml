@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" hash="123001143">
+    <data-source source="LOCAL" name="Rails devtwilio_app: development" uuid="1074df9b-1491-4f0b-ac21-a4b18b5ba56b">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:devtwi_db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails devtwilio_app: test" uuid="491bc19f-b6e4-4393-8591-b49e18e77ec6">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:devtwi_db</jdbc-url>
+      <libraries />
+    </data-source>
+    <data-source source="LOCAL" name="Rails devtwilio_app: production" uuid="ea098545-6574-4424-819b-830ce7298e25">
+      <driver-ref>postgresql</driver-ref>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql:devtwi_db</jdbc-url>
+      <libraries />
+    </data-source>
+  </component>
+</project>
+

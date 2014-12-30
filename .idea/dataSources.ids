@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source source="LOCAL" name="Rails devtwilio_app: development" uuid="1074df9b-1491-4f0b-ac21-a4b18b5ba56b">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails devtwilio_app: test" uuid="491bc19f-b6e4-4393-8591-b49e18e77ec6">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+  <data-source source="LOCAL" name="Rails devtwilio_app: production" uuid="ea098545-6574-4424-819b-830ce7298e25">
+    <database-info product="" version="" jdbc-version="" driver-name="" driver-version=""/>
+  </data-source>
+</component>
